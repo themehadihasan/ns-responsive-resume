@@ -1,0 +1,125 @@
+body {
+    background-color: #ebebeb;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-content {
+    display: grid;
+    min-height: 1000px;
+    grid-template-columns: 300px 700px;
+    width: 90%;
+    justify-content: center;
+    margin: 20px auto;
+}
+.left-section {
+    background: #223577;
+    color: white;
+}
+.left-content {
+    padding: 1rem;
+}
+.right-section {
+    background: white;
+    /* width: 90%; */
+}
+.profile-image img {
+    display: block;
+    margin: auto;
+    border: 5px solid white;
+    border-radius: 30%;
+    width: 60%;
+    background-color: #5477eb;
+}
+.name {
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.8rem;
+    letter-spacing: 0.02px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.designation {
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+}
+.description {
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    justify-content: center;
+}
+.icon .bx {
+    font-size: 1.25rem;
+    padding: 5px;
+    border-radius: 15%;
+    color: white;
+    background: #5477eb;
+}
+.icon .bx:hover {
+    background: #223577;
+    transition: 0.3s all linear;
+}
+.address {
+    padding: 1.5rem;
+    text-align: left;
+    font-size: 0.90rem;
+}
+.skills {
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem 0.5rem;
+}
+.skill-name {
+    font-size: 0.75rem;
+    text-align: left;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+.skills-section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.progress-bar {
+    border: 1px solid white;
+    height: 4px;
+    border-radius: 4px;
+    position: relative;
+    background-color: white;
+}
+.progress-bar-inner {
+    background-color: #5477eb;
+    height: 100%;
+    border-radius: 4px;
+}
+.right-main-content {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.right-title {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+.right-description {
+    padding-left: 0.5rem;
+    /* padding-bottom: 20px; */
+}
+@media screen and (max-width: 674px) {
+    .main-content {
+    grid-template-columns: repeat(1, 1fr);
+    /* width: 90%;
+    min-height: 1000px; */
+    }
+}
