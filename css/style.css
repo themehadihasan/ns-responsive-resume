@@ -115,11 +115,11 @@ body {
 .right-description {
     padding-left: 0.5rem;
 }
-@media screen and (min-width: 674px) {
+/* @media screen and (min-width: 674px) {
     .main-content {
         grid-template-columns: 300px 700px;
     }
-}
+} */
 @media screen and (max-width: 674px) {
     .main-content {
     grid-template-columns: repeat(1, 1fr);   
