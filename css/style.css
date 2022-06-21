@@ -9,12 +9,12 @@ body {
     min-height: 1000px;
     grid-template-columns: 300px 700px;
     max-width: 90%;
-    /* justify-content: center; */
-    /* margin: 20px; */
 }
 .left-section {
     background: #223577;
     color: white;
+    display: grid;
+    grid-column: span 1;
 }
 .left-content {
     padding: 1rem;
@@ -22,6 +22,7 @@ body {
 .right-section {
     background: white;
     width: 90%;
+    grid-column: span 1 / span 2;
 }
 .profile-image {
     display: block;
@@ -115,12 +116,7 @@ body {
 .right-description {
     padding-left: 0.5rem;
 }
-/* @media screen and (min-width: 674px) {
-    .main-content {
-        grid-template-columns: 300px 700px;
-    }
-} */
-@media screen and (max-width: 674px) {
+@media screen and (max-width: 673px) {
     .main-content {
     grid-template-columns: repeat(1, 1fr);   
     }
